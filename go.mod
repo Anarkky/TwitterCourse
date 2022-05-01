@@ -1,6 +1,6 @@
 module github.com/Anarkky/TwitterCurse
 
-go 1.13
+go 1.18.1
 
 require(
 

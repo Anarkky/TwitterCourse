@@ -1,1 +1,1 @@
-# Twitter Curse
+# Twitter Course

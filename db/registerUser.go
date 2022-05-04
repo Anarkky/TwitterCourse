@@ -13,7 +13,7 @@ func RegisterUser(u models.User) (string, bool, error) {
 	ctx, cancel := context.WithTimeout(context.Background(), 15*time.Second)
 	defer cancel()
 
-	db := MongoCn.Database("twittercurse")
+	db := MongoCn.Database("twitter")
 	col := db.Collection("users")
 
 	u.Password, _ = EncryptPassword(u.Password)

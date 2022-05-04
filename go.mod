@@ -1,4 +1,4 @@
-module github.com/Anarkky/TwitterCurse
+module github.com/Anarkky/TwitterCourse
 
 go 1.18
 

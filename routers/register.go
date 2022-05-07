@@ -8,7 +8,7 @@ import (
 	"github.com/Anarkky/TwitterCourse/models"
 )
 
-/* Register is a function to create ner user in data base*/
+/* Register is a function to create new user in data base*/
 func Register(w http.ResponseWriter, r *http.Request) {
 
 	var t models.User
